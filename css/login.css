@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  border:0;
+  text-decoration: none;
+ }
+
+ Body{
+  background-color: black;
+  color: white;
+  height:100vh;
+ }
+
+
+main.principal{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  padding: 10px;
+
+}
+section.frases{
+  font-family:sans-serif;
+  height:20%;
+}
+
+h4{
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 60px;
+  text-align: center;
+}
+h1{
+  font-size: 60px;
+  font-weight: 300;
+  color:rgb(72, 255, 0);
+  padding-top: 30px;
+  text-shadow: 3px 3px 3px rgb(133, 128, 128);
+}
+
+section.formulario{
+  background: rgb(43, 40, 44);
+  border-radius: 10px;
+  height:600px;
+  width:350px;
+  padding: 5px;
+  margin-top: 5%;
+  border:2px solid rgb(30, 255, 0); 
+}
+
+form{
+  font-size: 25px;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+h2{
+  margin-top:10px;
+  font-size: 3rem;
+  border-bottom: 2px solid white;
+  width:150px;
+  box-shadow:2px  rgb(0, 255, 76);
+}
+
+.inputSubmit{
+  height:40px;
+  width: 200px;
+  border-radius:8px;
+  background: blueviolet;
+  font-size:1.5rem;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  color:white;
+  font-size: 18px;
+  align-items: center;
+}
+a:hover{
+  color:rgb(0, 26, 255);
+}
+input{
+  background: rgba(88, 87, 87, 0.473);
+  color:white;
+  font-size: 1.2rem;
+  padding:10px;
+  border-radius: 5px;
+  margin:5px;
+}
+.links-login{
+padding-top:8px;
+
+}
+.imagem-cara{
+  height:270px;
+
+}
+
+/****/
+
+@media (max-width:424px){
+ 
+ 
+main.principal{
+   flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4{
+ font-size:25px;
+ padding-top: 10px;
+}
+h2{
+ margin-top: 1px;
+}
+section.formulario{
+  margin-top:7rem;
+
+}
+form{
+ width:280px;
+ padding:30px;
+ font-size:25px;
+}
+input{
+ font-size:14px;
+}
+a{
+  padding-top:10px;
+}
+
+h1{
+  margin-left:10px;
+  font-size: 50px;
+
+}
+}
+
+/*****/
+
+@media screen and (min-width:425px) and (max-width:600px) {
+section.formulario{
+  margin-top:7rem;
+}
+
+h1{
+  text-align: center;
+
+}
+
+main.principal{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+a{
+  padding-top:30px;
+}
+}
+
+/****/
+
+@media screen and (min-width:601px) and (max-width:800px) {
+
+h1{
+  text-align: center;
+}
+
+main.principal{
+  flex-direction: column;
+}
+
+section.formulario{
+  margin-top:7rem;
+
+}
+}     

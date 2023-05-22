@@ -1,0 +1,198 @@
+
+/*celular*/
+
+@media screen and (min-width:260px) and (max-width:700px) {
+
+  header.cabecalho{
+    justify-content: space-evenly;
+  }
+  
+  h2{
+    font-size:25px;
+    padding: 5px;
+  }
+  
+  nav.topoo{
+    gap:10px;
+  }
+  nav a{
+    font-size:1.5rem;
+  }
+  nav a:hover{
+    color:#1eff00;
+  }
+   div.quiz-container{
+    width: 30vh;
+    height: 40vh;
+    margin-bottom: 90%;
+    margin-top: 20%;
+   }
+  
+   h2 #question{
+    font-size:15px;
+    padding: 0;
+    width:100%;
+   }
+   h1{
+    font-size:15px;
+   }
+   
+  #a_text{
+    font-size: 14px;
+  }
+  
+  #b_text{
+    font-size: 14px;
+  }
+  
+  #c_text{
+    font-size: 14px;
+  }
+  
+  #d_text{
+    font-size: 14px;
+  }
+  
+   
+  }
+  
+  
+  
+  .reta{
+    color:rgb(131, 77, 77);
+    background: #FFF2E7;
+    padding: 15px;
+  }
+  
+  b{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /* cor da pagina e cor das palvras */
+  
+  *{     /*tirar a configuraçao do html */
+      margin:0;
+      padding: 0;
+      text-decoration: none;
+  }
+  
+  body {
+    background: linear-gradient(10.15deg, hsl(172, 100%, 65%) 10.62%, rgb(31, 27, 255) 99.00%);
+  
+      color: #FFF2E7;
+  }
+  /*menu de navegação, topo do site e imagem  */
+  
+  .cabecalho{
+      display: flex;
+      flex-direction: row; /*coluna deitada*/
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+      text-decoration: none;
+      background-color: #424242;
+    }
+  
+  .imagem-topo{
+      height: 60px; /*ao definir a altura a largura
+      e definida automaticamente*/
+  }
+  
+  .topoo{
+      display: flex;
+      gap:32px; /*defini a distacia dos elementos*/
+  }
+  
+  .topo{
+      font-family: 'sarala';
+      color:#FFF2E7;
+      font-weight: 400; /*peso da fonte*/
+      font-size:20px; /*tamanho da fonte*/
+  }
+  .topo:hover{
+      color: chartreuse;
+  }
+  
+  .topoo{
+      display: flex;
+      gap:10px; /*defini a distacia dos elementos*/
+  }
+  
+  .topo:hover{
+      color: rgb(44, 255, 44);
+  }
+  
+  /*quiz*/
+  
+  .quiz-container{
+    display:flex;
+    justify-content:center;
+    background-color:#5653f0;
+    border-radius: 15px;
+    flex-direction: column;
+    padding: 5px;
+    height:55vh;
+    width: 65vh;
+    margin-bottom: 5%;
+  }
+   
+  .quiz-header{
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #question{
+    font-size:20px;
+    padding: 10px;
+    background-color: rgb(53, 67, 146);
+  }
+  
+  h2{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  ul{
+    list-style-type: none;
+    padding: 0;
+  
+  }
+  
+  ul li{
+    font-size: 1.2rem;
+    margin-top:10px;
+  }
+  
+  ul li label{
+    cursor: pointer;
+  }
+  
+  button{
+    position: relative;
+    background: hwb(258 47% 2%);
+    align-items: center;
+    color: #1eff00;
+    border: none;
+    width: 24vh;
+    height:50px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 10px;
+    padding: 8px ;
+    margin-top:20px;
+  }
+  
+  button:hover{
+    background-color: hwb(104 0% 0%);
+    color: #ffffff;
+  }
+  
+  
+  
+  

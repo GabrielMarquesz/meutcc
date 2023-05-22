@@ -1,0 +1,128 @@
+
+*{    
+  text-decoration: none;
+  border:0;
+  margin:0;
+ }
+    
+ 
+ body {
+     background: linear-gradient(10.15deg, hsl(172, 100%, 65%) 10.62%, rgb(31, 27, 255) 99.00%);
+ }
+ 
+ nav{
+     display:flex;
+     height:100px;
+     background-color:#424242;
+     align-items: center;
+     justify-content: space-around;
+     padding: 0 50px 0 100px;
+ }
+ 
+ nav.logo{
+      color:#2e8b57;
+      font-size: 35px;
+      font-weight: 600;
+ 
+ }
+ 
+ nav ul{
+     display: flex;
+     list-style: none;
+     flex-direction: row;
+ }
+ 
+ 
+ li a{
+     color: rgb(255, 255, 255);
+     text-decoration:none;
+     font-size: 1.5rem;
+     font-weight: 500;;
+     border-radius: 5px;
+     padding: 8px;
+     transition: all 0.2s ease;
+ }
+   
+ nav .menu-btn i{
+        color:#e1e1e1;
+        cursor: pointer;
+        display: none;
+     }
+     
+ a:hover{
+    color: rgb(47, 255, 0);
+ }
+ 
+ img{
+   height:70px;
+   width:70px;
+ }
+ .reta{
+     color:rgb(131, 77, 77);
+     background: #FFF2E7;
+     padding: 15px;
+ }
+ 
+ b{
+     font-size: 50px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+ }
+  
+ .caixas-cardapio{
+     display: flex;
+     flex-direction: row;
+     padding: 30px;
+     gap:10px;
+     align-items: center;
+     position: relative;
+     justify-content: center;
+     
+ }
+ .quadrados{
+     background: #FFF2E7;
+ 
+     height: 200px;
+     width:200px;
+     padding: 10px;
+     box-shadow: 2px 2px 9px  rgb(0, 255, 128);
+     border-radius:60px;
+     text-align: center;
+ }
+ 
+ a{
+     color:rgb(150, 77, 0);
+     font-size: 1.5rem;
+ 
+ }
+ h3{
+     color: white;
+ }
+ 
+ 
+     
+ p{
+     font-size: 25px;
+ }
+ /*final da pagina. rodape*/
+ .rodape{
+     background: #FFF2E7;
+     padding: 10px;
+ 
+ }
+ 
+ 
+ @media only screen and (max-width: 700px) {
+     
+     .caixas-cardapio{
+         display: flex;
+         flex-direction: column;
+     }
+ 
+     
+ 
+     }
+ 
+    

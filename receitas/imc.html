@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/imc.css">
+    <title>Hearty life style</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h3>heartylifestyle</h3>
+        <img class="imagem-topo" src="../img/logonutri.png" alt="logo">
+
+        <nav class="topo-cabecalho">
+        
+            <a href="../php/sistema.php" class="btn btn-danger me-5" style="color:white" id="sair">voltar</a>
+
+         </nav>
+      </header>
+
+      <div class="reta">
+        <b>IMC.</b>
+    </div>
+    <br><br>
+
+   <div class="area">
+    <div class="container">
+        <h1>Calculador de IMC</h1>
+        <div class="input_area">
+            <h2>Altura (cm) </h2>
+            <input id="height" type="number">
+        </div><br>
+        <div class="input_area">
+            <h2>Peso (kg) </h2>
+            <input id="weight" type="number">
+        </div><br><br>
+        <button onclick="calculate()">Calcular</button>
+        <textarea name="" id="text_area" rows="5"></textarea>
+        </div>
+       
+    </div> <br><br><br><br><br><br><br><br>
+    
+
+
+
+    <script src="../imc.js"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+
+*{    /*tirar a configuraçao */
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  border: none;
+  background: linear-gradient(68.15deg, #0004ff85 16.62%, #3b2930 85.61%);
+  color:#FFF2E7;
+}   
+
+/*menu de navegação, topo do site e imagem  */
+
+.cabecalho{
+  display: flex;
+  flex-direction: row; /*coluna deitada*/
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+  background-color: darkslateblue;
+}
+.imagem-topo{
+  height: 72px; /*ao definir a altura a largura
+  e definida automaticamente*/
+}
+.topo-cabecalho{
+  display:flex;
+  gap:32px; /*defini a distacia dos elementos*/
+
+}
+.topo{
+  font-family: 'sarala';
+  color:#FFF2E7;
+  font-weight: 400; 
+  font-size:18px; 
+}
+.topo:hover{
+  color: chartreuse;
+}
+
+/*parte do meio do site*/
+
+.conteudo{
+  margin-bottom:48px;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row; /*colocar na horizontal*/
+  align-items: center; /*alinhar no centro*/
+  justify-content: space-around;
+
+
+} 
+.conteudo-escrito{
+  display:flex;
+  flex-direction: column; /*coluna em pe*/
+  gap: 32px;
+}
+.logoredonda{
+  padding: 15px;
+  height:400px;
+  width:350px ;
+  border-radius: 50%;
+}
+.primeira-frase{
+  font-family: 'righteous', cursive;
+  font-weight: 400px;
+  font-size:64px;
+  color:#FFF2E7; 
+}
+.segunda-frase{
+  font-family: 'sarala';
+  font-weight: 400px;
+  font-size: 24px;
+  color:#ecd6c4;
+  padding: 2px;
+}
+
+.botao{
+  background-color: #ffffff;
+  height: 25px;
+  width: 60PX;
+  box-shadow: 4px 5px 4px rgb(144, 241, 124); /*sombra do botao*/
+  border-radius:20px;
+  font-family: 'righteous', cursive;
+  padding: 20px;
+}
+
+.botao:hover{
+  background-color: rgba(0, 255, 64, 0.918);
+}
+B{
+  color: rgba(0, 0, 0, 0.74);
+  font-family: 'sarala';
+  font-weight: 400px;
+  font-size: 24px;
+}
+.conteudo-secundario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-top: 48px;
+}
+.titulo{ /*linha apenas em cima do titulo*/
+  border-top:2.0px solid #fbff00ef;
+  padding-top: 30px;
+}
+.paragrafo{
+  font-family: 'sarala';
+  font-weight:30px;
+  font-size: 18px;
+  color:#ecd6c4;
+}
+/*final*/
+
+.rodape{
+  background-color: darkslateblue ;
+  padding:20px;
+  height: 80px;
+}
+
+
+/*para celular*/
+
+@media screen and (min-width:200px) and (max-width:500px) {
+ 
+
+ .conteudo-principal{
+     width:100%;
+     display: flex;
+     flex-direction:column ;
+ }
+ 
+ .imagem-topo{
+  height: 35px; /*ao definir a altura a largura
+     e definida automaticamente*/
+  padding:5px;
+ }
+ 
+ .topo-cabecalho{
+     width:100%;
+     display: flex;
+     justify-content: space-around;
+     gap:5px; /*defini a distacia dos elementos*/
+ }
+ 
+ .topo{
+     font-size:15px; /*tamanho da fonte*/
+     gap:5px;
+ }
+  
+ .logoredonda{
+     height:50%;
+     width:50%;
+ }
+ 
+ .primeira-frase{
+     padding: 20px;
+     font-size:50px;
+     margin-left: 3%;
+ }
+ 
+ .segunda-frase{
+     font-weight: 100px;
+     font-size: 30px;
+     padding: 20px;
+     margin-left: 3%;
+ }
+ 
+ .botao{
+     height: 3vh;
+     width: 8vh;
+     margin-left: 3%;
+     border-radius:15px;
+     padding: 10px;
+     margin-left: 35px;
+ }
+ 
+ .titulo{ /*linha apenas em cima do titulo*/
+     border-top:0.4px solid #09ff00;
+     padding-bottom: 25px;
+     font-size: 20px;
+ }
+ 
+ .paragrafo{
+     font-weight:10px;
+     font-size: 18px;
+     padding: 5px;
+     text-align: center;
+
+ }
+ 
+ }
