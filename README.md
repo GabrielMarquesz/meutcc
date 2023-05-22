@@ -27,4 +27,6 @@ Para usar o projeto vc precisa criar
 um banco de dados e fazer conexão...
 
 link do site hospedado:
-https://heartylife.000webhostapp.com/
+<a href="https://heartylife.000webhostapp.com/">Clique aqui para ver o site hospedado</a>
+
+(a hospedagem é gratuita, por isso vai ficar aparecendo o local da hospedagem!)
